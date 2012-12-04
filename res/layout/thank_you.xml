@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+    <ImageButton
+        android:id="@+id/smiley"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160sp"
+        android:background="@drawable/smiley"
+        android:gravity="right" />
+       
+    <TextView
+        android:id="@+id/thank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80sp"
+        android:layout_centerHorizontal="true"
+        android:text="THANK"
+        android:textColor="#ffffff"
+        android:textSize="60dip"
+        android:textStyle="bold"/>
+    
+    <TextView
+        android:id="@+id/you"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/thank"
+        android:text="Y  U"
+        android:textColor="#ffffff"
+        android:textSize="60dip"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

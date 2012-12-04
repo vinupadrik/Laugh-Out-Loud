@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgnew"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+    <ImageButton
+        android:id="@+id/smiley"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45sp"
+        android:background="@drawable/smiley"
+        android:gravity="right" />
+       
+    <TextView
+        android:id="@+id/jokelogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_centerHorizontal="true"
+        android:text="L  L"
+        android:textColor="#ffffff"
+        android:textSize="100dip"
+        android:textStyle="bold"/>
+    
+    <TextView
+        android:id="@+id/jokePunchLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/jokelogo"
+        android:text="Laugh Out Loud"
+        android:textColor="#ffffff"
+        android:textSize="20dip"/>
+    
+    <RadioGroup
+        android:id="@+id/playjokes"
+        android:layout_below="@+id/jokePunchLine"
+        android:layout_marginTop="40dip"
+        android:layout_marginLeft="20dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+    <RadioButton
+        android:id="@+id/PlayRandom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play_random"
+        android:textSize="20dip"
+        android:textStyle="bold"
+        android:textColor="#ffffff" />
+
+    <RadioButton
+        android:id="@+id/SelectCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_category"
+        android:textSize="20dip"
+        android:textStyle="bold"
+        android:textColor="#ffffff" />
+    </RadioGroup>
+
+</RelativeLayout>

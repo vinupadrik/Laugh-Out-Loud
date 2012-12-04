@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgnew"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+        
+    <ImageButton
+        android:id="@+id/btn_home"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/gohome"
+        android:gravity="left" />
+
+
+    <ImageButton
+        android:id="@+id/btn_play"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/play"
+        android:gravity="left" />
+
+    <ImageButton
+        android:id="@+id/btn_prev"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/btn_home"
+        android:layout_alignTop="@+id/btn_play"
+        android:background="@drawable/previous"
+        android:gravity="left" />
+
+    <TextView
+        android:id="@+id/txt_joke"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btn_home"
+        android:layout_marginTop="30dip"
+        android:layout_marginRight="20dip"
+        android:text="@+id/TextView01"
+        android:textColor="#ffffff"
+        android:textSize="20dip"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/btn_next"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/btn_play"
+        android:background="@drawable/back"
+        android:gravity="right" />
+
+</RelativeLayout>

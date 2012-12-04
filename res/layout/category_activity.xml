@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgnew"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+    
+    <TextView
+        android:id="@+id/selectMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dip"
+        android:text="Please select one of the categories listed below"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20dip"/>
+
+    <RadioGroup
+        android:id="@+id/jokecategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/selectMsg"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="5dip">
+
+    <RadioButton
+        android:id="@+id/AntiJokes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/anti_jokes"
+        android:textSize="20dip"
+        android:textStyle="bold"
+        android:textColor="#ffffff" />
+
+    <RadioButton
+        android:id="@+id/ChuckNorrisJokes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chuck_norris_jokes"
+        android:textSize="20dip"
+        android:textStyle="bold"
+        android:textColor="#ffffff" />
+    
+
+    
+    </RadioGroup>
+
+    <ImageButton
+        android:id="@+id/btn_home"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/gohome"
+        android:gravity="left" />
+
+</RelativeLayout>
